@@ -1,2 +1,9 @@
 [build]
-functions = "functions"
+  functions = "functions"
+
+[dev]
+  autoLaunch = true # a Boolean value that determines if Netlify Dev launches the local server address in your browser
+  command = "yarn dev" # Command to start your dev server
+  framework = "#custom" # a Boolean value that determines if Netlify Dev launches the local server address in your browser
+  port = 8888 # The port that the netlify dev will be accessible on
+  targetPort = 3000 # The port for your application server, framework or site generator
