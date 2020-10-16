@@ -1,3 +1,4 @@
+require('dotenv').config()
 const client = require("@sendgrid/client")
 
 // https://sendgrid.api-docs.io/v3.0/contacts/add-or-update-a-contact
